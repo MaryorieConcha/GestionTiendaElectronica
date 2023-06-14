@@ -1,0 +1,85 @@
+#tituloEncabezado{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.encabezado{
+    background-color: antiquewhite;
+    background-position: top;
+    border-left: 0vh;
+    border-right: 100vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: crimson;
+}
+.subtitulo{
+    background-color: rgb(170, 118, 238);
+    height: 5vh;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color:darkblue;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.parrafo{
+    background-color: rgb(255, 228, 196, 0.7);
+    height: 1em;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    color: #5014dc;
+    text-align: justify;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.texto{
+    font-family: 'Times New Roman', Times, serif;
+}
+.tabla{
+    background-color: rgb(170, 118, 238, 0.7);
+    width:max-content;
+    text-align: center;
+    border: 1px solid #000;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+.centrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.etiqueta{
+    background-color: rgb(51, 122, 184);
+    width: max-content;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+.esquinar{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+.boton{
+    width: max-content;
+    background-color: #faf7c3;
+    border-radius: 12px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    align-content: center;
+    color: black;
+}
+.boton:hover {
+    background-color: #4CAF50; /* Cambia el color al pasar el cursor sobre el botón */
+}
